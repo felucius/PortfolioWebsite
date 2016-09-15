@@ -1,26 +1,30 @@
 <html>
 	<head>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="stylesheet.css">
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!---------------------------------------------------------------------SETUP--------------------------------------------------------------------------->
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+			
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  	<link rel="stylesheet" href="stylesheet.css"></script>
+	  	<script type="text/javascript" src="JQuery.js"></script>
 	</head>
 
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!------------------------------------------------------------------NAVIGATION BAR--------------------------------------------------------------------->
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+			
 	<body>
 		<div class="navigationBar">
-			<nav class="navbar navbar-inverse">
+			<nav class="navbar navbar-fixed-top">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
 			      <a class="navbar-brand" href="#">Maxime de Lange</a>
 			    </div>
 			    <ul class="nav navbar-nav">
-			      <li class="active"><a href="#">Home</a></li>
-			      <li><a href="#">home</a></li>
+			      <li class="active"><a href="#">home</a></li>
 			      <li><a href="#">about</a></li>
 			      <li><a href="#">contact</a></li>
 			      <li><a href="#">projecten</a></li>
@@ -28,6 +32,10 @@
 			  </div>
 			</nav>
 			  
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!----------------------------------------------------------------PROFILE PICTURE---------------------------------------------------------------------->
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+			
 			<div class="profilePicture col-md-6 col-md-offset-5">
 				<img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/11951304_987871444598628_3436388143734476159_n.jpg?oh=8deb361e5966f3192f85f38436b3a4fa&oe=586DF1B9" class="img-circle" alt="Maxime de Lange" width="200" height="200"/>
 			</div>
@@ -36,10 +44,58 @@
 			<hr>
 			</div>
 
-			<div class="personalInformation col-md-3 col-md-offset-2">
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!--------------------------------------------------------------PERSONAL INFORMATION-------------------------------------------------------------------->
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+			
+			<div class="personalInformationMaxime col-md-4 col-md-offset-7">
+				<h2>Maxime de Lange</h2>
 				<p>Mijn naam is Maxime de Lange en ik ben een student aan de Fontys in Eindhoven. 
-				Ik ben een tweedejaars software engineering student.</p>
+				Ik ben een tweedejaars software engineering student die erg veel van programmeren houdt.</p>
 			</div>
+
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!-----------------------------------------------------------------PERSONAL SKILLS---------------------------------------------------------------------->
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+			
+			<div class="personalInformationSkill col-md-4 col-md-offset-4">
+			  <a href="#skills" class="btn btn-info" data-toggle="collapse">My skills</a>
+			  <div id="skills" class="collapse">
+				<img src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Database-Cloud-128.png" class="img-circle" alt="Databases" width="100" height="100"/>
+				<img src="https://cdn0.iconfinder.com/data/icons/e-learning-coding-tutorial-badge-icons/96/Coding_Icons_-_LINE-14-128.png" class="img-circle" alt="C#" width="100" height="100">
+				<img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700034-icon-76-document-file-html-128.png" class="img-circle" alt="HTML" width="100" height="100"/>
+				<img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700036-icon-78-document-file-java-128.png" class="img-circle" alt="java" width="100" height="100"/>
+				<img src="https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/jquery-128.png" class="img-circle" alt="JQuery" width="100" height="100"/>
+				<img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700035-icon-77-document-file-css-128.png" class="img-circle" alt="CSS" width="100" height="100"/>
+				<img src="https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-128.png" class="img-circle" alt="Bootstrap" width="100" height="100">
+			  </div>
+			</div>
+
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!---------------------------------------------------------------PERSONAL PROJECTS---------------------------------------------------------------------->
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+			
+			<div class="personalInformationProjects col-md-4 col-md-offset-4">
+			  <a href="#projects" class="btn btn-info" data-toggle="collapse">My projects</a>
+			  <div id="projects" class="collapse">
+			  	<p>Klik op de link, om naar mijn persoonlijk GitHub pagina te gaan. Hierop staan al mijn projecten weergegeven</p>
+			  	<ul>
+			  		<li><a href="https://github.com/felucius">GitHub Maxime de Lange</a></li>
+			  	</ul>
+			  </div>
+			</div>
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!-------------------------------------------------------------------CONTACT--------------------------------------------------------------------------->
+		<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+			<div class="personalInformationContact col-md-4 col-md-offset-4">
+			  <a href="#contact" class="btn btn-info" data-toggle="collapse">Contact me</a>
+			  <div id="contact" class="collapse">
+			  	<ul>
+			  		<li><a href="mailto:maximedelange1991@hotmail.com">maximedelange1991@hotmail.com</li>
+			  	</ul>
+			  </div>
+			</div>
+
 		</div>
 	</body>
 </html>

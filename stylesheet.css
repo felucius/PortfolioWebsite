@@ -1,13 +1,28 @@
 hr {
     height: 2px;
     background-color: black;
-    margin-top: 20%;
-    margin-bottom: 20px;
-    width: 75%;
+    width: 50%;
 }
 
 .profilePicture{
-	position: fixed;
+	margin-top: 5%;
 	width: 50%;
 	z-index: 10;
+}
+
+.personalInformationMaxime{
+	background-color: #5bc0de;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	margin-top: -16%;
+}
+
+.personalInformationSkills{
+	margin-top: 30%;
+}
+
+.btn{
+	width: 100%;
+	margin-top: 10%;
 }
