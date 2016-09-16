@@ -10,14 +10,6 @@ hr {
 	z-index: 10;
 }
 
-.personalInformationMaxime{
-	background-color: #5bc0de;
-	border-radius: 10px;
-	color: white;
-	font-size: 20px;
-	margin-top: -16%;
-}
-
 .personalInformationSkills{
 	margin-top: 30%;
 }
@@ -29,4 +21,56 @@ hr {
 
 .pre-scrollable{
 	max-height: 100%;
+}
+
+.personalInformationMaxime 
+{
+position: relative;
+color: white;
+font-size: 20px;
+margin-top: -16%;
+margin-left: 60%;
+background: #5bc0de;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.personalInformationMaxime:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 14px 36px 14px 0;
+border-color: transparent #5bc0de;
+display: block;
+width: 0;
+z-index: 1;
+left: -36px;
+top: 113px;
+}
+
+.PopUp {
+position: relative;
+color: white;
+font-size: 14px;
+margin-top: -14%;
+margin-left: 22%;
+background: #5bc0de;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.PopUp:after {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 14px 0 14px 36px;
+border-color: transparent #5bc0de;
+display: block;
+width: 0;
+z-index: 1;
+right: -36px;
+top: 30%;
 }

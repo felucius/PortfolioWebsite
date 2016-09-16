@@ -1,7 +1,8 @@
 
 $(document).ready(function(){
 	$(".personalInformationMaxime").hide();
-	$(".profilePicture").click(function(){
+	$(".PopUp").click(function(){
+		$(".PopUp").toggle("slow");
 		$(".personalInformationMaxime").toggle("slow");
 	})
 });
